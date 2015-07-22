@@ -48,6 +48,7 @@ typedef NS_ENUM(NSInteger, PBJVideoPlayerBufferingState) {
 
 @property (nonatomic) BOOL playbackLoops;
 @property (nonatomic) BOOL playbackFreezesAtEnd;
+@property (nonatomic) BOOL pauseOnTouch;
 @property (nonatomic, readonly) PBJVideoPlayerPlaybackState playbackState;
 @property (nonatomic, readonly) PBJVideoPlayerBufferingState bufferingState;
 
